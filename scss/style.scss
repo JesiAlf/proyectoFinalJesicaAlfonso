@@ -1,0 +1,200 @@
+@import "banner";
+@import "formulario";
+@import "header";
+@import "mediaqdesktop";
+@import "mediaqmobile";
+@import "mixins";
+@import "nav";
+@import "transform";
+@import "variables";
+
+
+
+* {
+  overflow-x: hidden;
+}
+
+header {
+  z-index: 1;
+}
+
+.formulario:focus {
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(3, 3, 49);
+}
+
+input [type=email],
+input[type=password] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+input [type=submit],
+input[type=button] {
+  background-color: rgb(4, 4, 45);
+  color: aliceblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input [type=submit]:hover,
+input[type=button]:hover {
+  background-color: rgb(8, 8, 26);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+main {
+  margin: 50px 0;
+}
+
+.card {
+  position: relative;
+  height: 500px;
+}
+
+h1 p {
+  color: aliceblue;
+  font-family: 'Indie Flower', cursive;
+}
+
+ul {
+  list-style: none;
+  color: aliceblue;
+}
+
+.contenedor-2-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.google-map {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.formulario:focus {
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(22, 22, 94);
+}
+
+.letra {
+  font-size: large;
+  font-family: 'Indie Flower', cursive;
+}
+
+input [type=email],
+input[type=password] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+input [type=submit],
+input[type=button] {
+  background-color: rgb(4, 4, 45);
+  color: aliceblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.columnas {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-toggler-icon {
+  background: url("https://api.iconify.design/solar/hamburger-menu-linear.svg?color=blue") no-repeat center center/contain;
+  background-color: rgb(8, 8, 26);
+}
+
+.iconos-redes {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  width: 45px;
+}
+
+.traslate {
+  transition: all 2s;
+}
+
+.translate:hover {
+  transform: translateX(10px);
+}
+
+.iconos-redes {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.icono-footer {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.parrafo-footer {
+  color: beige;
+  font-family: 'Indie Flower', cursive;
+  font-size: small;
+
+}

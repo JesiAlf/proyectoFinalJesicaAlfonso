@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgba(18, 5, 14, 0.812);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: .9;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 100px;
+    align-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+main {
+    margin: 50px 0;
+}
+
+.card {
+    position: relative;
+    height: 500px;
+}
+
+h1 p {
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue
+}
+
+.formulario:focus {
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(30, 30, 151);
+}
+
+input [type="email"],
+input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input [type="submit"],
+input[type="button"] {
+    background-color: rgb(4, 4, 45);
+    color: aliceblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input [type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: rgb(8, 8, 26);
+}

@@ -1,0 +1,269 @@
+.formulario:focus {
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(49, 38, 3);
+}
+
+input [type=email],
+input[type=password] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+input [type=submit],
+input[type=button] {
+  background-color: rgb(4, 4, 45);
+  color: aliceblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input [type=submit]:hover,
+input[type=button]:hover {
+  background-color: rgb(8, 8, 26);
+}
+
+@media (min-width:1024px) {
+  input:focus {
+    height: 50px;
+    font: size 20px;
+    background-color: lightseagreen;
+  }
+
+  input,
+  select {
+    font-size: 20px;
+  }
+
+  .form {
+    display: inline-flexbox;
+    position: relative;
+    text-align: center;
+  }
+
+  .opciones {
+    color: aliceblue;
+    width: 400%;
+    max-width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .emailposition {
+    display: inline-flexbox;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 10px;
+    position: relative;
+
+  }
+
+  /* inicio sesion */
+  form {
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .iniciosesion {
+    color: aliceblue;
+  }
+
+  .correo .contrase {
+    color: aliceblue;
+    background-color: #13063294;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+
+  input[type="submit"],
+  input[type="button"] {
+    background-color: #090e5adf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background-color: #091d3b86;
+  }
+
+  .colorBlue {
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+  .fondo-parrafos {
+    margin: 0 auto;
+    width: 80%;
+    color: rgb(52, 142, 188);
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .formulario {
+    width: 400%;
+    max-width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .cantidad {
+    width: 400%;
+    max-width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(37, 35, 163);
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(37, 35, 163);
+    font-family: 'Indie Flower', cursive;
+  }
+
+}
+
+@media (max-width:768px) {
+  .banner {
+    display: none;
+  }
+
+  input:focus {
+    height: 50px;
+    font: size 16px;
+    background-color: lightseagreen;
+    color: cue-region;
+  }
+
+  .correo {
+    color: aliceblue;
+  }
+
+  .contrase {
+    color: aliceblue;
+  }
+
+  .form {
+    display: inline-flexbox;
+    position: relative;
+    text-align: center;
+  }
+
+  .emailposition {
+    margin-top: 15px;
+  }
+
+  .cel {
+    margin-top: 15px;
+  }
+
+  input,
+  select {
+    font-size: 20px;
+  }
+
+  .form {
+    display: inline-flexbox;
+    position: relative;
+    text-align: center;
+  }
+
+  .opciones {
+    color: aliceblue;
+    font-size: 24px;
+  }
+
+  .colorBlue {
+    text-align: center;
+    background-color: antiquewhite;
+  }
+
+  .formulario button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .formulario {
+    width: 400%;
+    max-width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cantidad {
+    width: 400%;
+    max-width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(37, 35, 163);
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(37, 35, 163);
+    font-family: 'Indie Flower', cursive;
+  }
+
+}

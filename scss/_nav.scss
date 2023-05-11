@@ -1,0 +1,21 @@
+.nav-item {
+  color: rgb(89, 130, 151);
+  background-color: rgba(108, 97, 201, 0.552);
+  padding: 5px px;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+}
+
+.nav-link {
+  color: gainsboro;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-toggler-icon {
+  background: url('https://api.iconify.design/solar/hamburger-menu-linear.svg?color=blue') no-repeat center center / contain;
+  background-color: rgb(8, 8, 26);
+}
